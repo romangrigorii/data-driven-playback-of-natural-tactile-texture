@@ -5,6 +5,7 @@ titled "Data-driven playback of natural tactile texture via broadband friction
 modulation" which can be found here:
 
 DOI: 10.1109/TOH.2021.3130091
+
 IEEE link: https://ieeexplore.ieee.org/document/9625707
 
 This repo contains the embedded C code used to program PIC32 microcontroller.
