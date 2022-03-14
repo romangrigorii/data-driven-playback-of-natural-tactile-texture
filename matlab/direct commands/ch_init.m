@@ -1,0 +1,16 @@
+dur = 8.5;
+sr = 10000;
+st = daq.createSession('ni');
+st.Rate = sr;
+st.DurationInSeconds = dur;
+ch1 = addAnalogInputChannel(st,'Dev2','ai1','Voltage');
+ch1.InputType = 'SingleEnded'; %% lateral force
+ch2 = addAnalogInputChannel(st,'Dev2','ai9','Voltage');
+ch2.InputType = 'SingleEnded'; %% normal force
+ch3 = addAnalogInputChannel(st,'Dev2','ai10','Voltage');
+ch3.InputType = 'SingleEnded'; %% LDV
+ch4 = addAnalogInputChannel(st,'Dev2','ai3','Voltage');
+ch4.InputType = 'SingleEnded'; %% current
+ch5 = addCounterInputChannel(st, 'Dev2', 0, 'Position');
+ch5.EncoderType = 'X4';
+ch6 = addAnalogOutputChannel(st,'Dev2','ao0','Voltage');
