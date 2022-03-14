@@ -8,13 +8,15 @@ DOI: 10.1109/TOH.2021.3130091
 
 IEEE link: https://ieeexplore.ieee.org/document/9625707
 
-This repo contains the embedded C code used to program PIC32 microcontroller.
+/C contains the embedded C code used to program PIC32 microcontroller.
 Microcontroller was responsible for:
 
-1) linear stage motion with velocity feedback
-2) driving of servo motor for loading of tribometer stage
-3) temperature controller for heating a tactile substrate
+1) communication with DAC/ADC
+2) linear stage motion driven by brushless DC motor with velocity feedback
+3) driving of servo motor for loading of tribometer stage
+4) temperature controll for heating a tactile substrate to a nominal
+temperature of the human body
 
-The repo also contains experimental protocol for gathering psychophysical data
+/matlab contains experimental protocol for gathering psychophysical data
 from subjects, extract a number of statistic metrics from the data, and generate
 the graphics that are included in the paper.
