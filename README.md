@@ -14,7 +14,7 @@ Microcontroller was responsible for:
 1) communication with DAC/ADC
 2) linear stage motion driven by brushless DC motor with velocity feedback
 3) driving of servo motor for loading of tribometer stage
-4) temperature controll for heating a tactile substrate to a nominal
+4) temperature control for heating a tactile substrate to a nominal
 temperature of the human body
 
 /matlab contains experimental protocol for gathering psychophysical data
