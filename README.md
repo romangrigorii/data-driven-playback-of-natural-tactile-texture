@@ -3,6 +3,7 @@
 This repository contains all of the code used in writing an IEEE publication
 titled "Data-driven playback of natural tactile texture via broadband friction
 modulation" which can be found here:
+
 DOI: 10.1109/TOH.2021.3130091
 IEEE link: https://ieeexplore.ieee.org/document/9625707
 
